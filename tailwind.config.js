@@ -6,7 +6,9 @@ const colors = {
 	black: twColors.black,
 	white: twColors.white,
 	accent: '#4c83c3',
-	bgAccent: '#f5f5f5',
+	bgLight: '#f5f5f5',
+	bgAccentDark: '#2b3247',
+	bgAccentDarkLight: '#2b3247',
 	primary: '#333333',
 	secondary: '#666666'
 }
@@ -21,6 +23,12 @@ module.exports = {
 	],
 	theme: {
 		colors,
+		// screens: {
+		// 	xs: { min: '320px', max: '639px' },
+		// 	sm: { min: '640px', max: '767px' },
+		// 	md: { min: '768px', max: '1023px' },
+		// 	lg: { min: '1024px', max: '1279px' }
+		// },
 		extend: {
 			keyframes: {
 				animationOpacity: {
