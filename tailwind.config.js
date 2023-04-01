@@ -5,12 +5,13 @@ const colors = {
 	transparent: twColors.transparent,
 	black: twColors.black,
 	white: twColors.white,
+	gray: twColors.gray,
 	accent: '#4c83c3',
-	bgLight: '#f5f5f5',
-	bgAccentDark: '#2b3247',
-	bgAccentDarkLight: '#2b3247',
+	['bg-light']: '#f5f5f5',
+	['bg-accent-blue']: '#2b3247',
 	primary: '#333333',
-	secondary: '#666666'
+	secondary: '#666666',
+	['hover-light']: '#f7f7f7'
 }
 module.exports = {
 	content: [
@@ -29,6 +30,14 @@ module.exports = {
 		// 	md: { min: '768px', max: '1023px' },
 		// 	lg: { min: '1024px', max: '1279px' }
 		// },
+		container: {
+			center: true,
+			padding: '1rem',
+			maxWidth: '1200px'
+		},
+		boxShadow: {
+			card: '0 0 4px 4px rgba(20,102,143,0.08)'
+		},
 		extend: {
 			keyframes: {
 				animationOpacity: {

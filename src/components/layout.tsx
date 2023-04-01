@@ -1,11 +1,9 @@
+import Navbar from './Navbar'
+
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<>
-			<header>
-				<nav>
-					<h1>Navbar</h1>
-				</nav>
-			</header>
+			<Navbar />
 			<main>{children}</main>
 			<footer>Footer</footer>
 		</>
