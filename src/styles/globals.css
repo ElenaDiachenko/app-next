@@ -10,11 +10,20 @@
 		@apply text-base text-primary;
 	}
 }
-.center-row {
-	@apply flex items-center justify-center;
-}
-.center-col {
-	@apply flex flex-col items-center;
+@layer components {
+	.btn-primary {
+		@apply cursor-pointer rounded-md bg-accent/90 px-4 py-2 font-medium text-white hover:bg-accent focus:bg-accent focus:outline-none;
+	}
+	.btn-secondary {
+		@apply cursor-pointer rounded-md bg-white px-4 py-2 font-medium text-accent hover:bg-hover-light focus:bg-hover-light focus:outline-none;
+	}
+
+	.center-row {
+		@apply flex items-center justify-center shadow-card;
+	}
+	.center-col {
+		@apply flex flex-col items-center;
+	}
 }
 
 .disabled {
@@ -22,4 +31,10 @@
 	cursor: default;
 	text-decoration: none;
 	opacity: 0.2 !important;
+}
+
+.a {
+	text-decoration: none;
+	font-size: inherit;
+	font-weight: inherit;
 }
