@@ -7,6 +7,7 @@ const colors = {
 	white: twColors.white,
 	gray: twColors.gray,
 	accent: '#4c83c3',
+	['t-black']: '#111111',
 	['bg-light']: '#f5f5f5',
 	['bg-accent-blue']: '#2b3247',
 	primary: '#333333',
@@ -33,7 +34,8 @@ module.exports = {
 		container: {
 			center: true,
 			padding: '1rem',
-			maxWidth: '1200px'
+			maxWidth: '1200px',
+			width: '100%'
 		},
 		boxShadow: {
 			card: '0 0 4px 4px rgba(20,102,143,0.08)'

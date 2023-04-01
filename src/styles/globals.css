@@ -7,7 +7,7 @@
 		font-family: Arial, Helvetica, sans-serif;
 	}
 	body {
-		@apply text-base text-primary;
+		@apply text-base  text-['#707070']  md:text-lg;
 	}
 }
 @layer components {
@@ -37,4 +37,12 @@
 	text-decoration: none;
 	font-size: inherit;
 	font-weight: inherit;
+}
+a:hover {
+	color: #4c83c3;
+}
+.img {
+	display: block;
+	margin: 0;
+	padding: 0;
 }
