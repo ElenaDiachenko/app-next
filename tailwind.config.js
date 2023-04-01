@@ -33,9 +33,7 @@ module.exports = {
 		// },
 		container: {
 			center: true,
-			padding: '1rem',
-			maxWidth: '1200px',
-			width: '100%'
+			padding: '1rem'
 		},
 		boxShadow: {
 			card: '0 0 4px 4px rgba(20,102,143,0.08)'
@@ -63,6 +61,11 @@ module.exports = {
 			animation: {
 				opacity: 'animationOpacity .5s easy-in-out',
 				scaleIn: 'scaleIn .35s easy-in-out'
+			},
+			backgroundImage: {
+				'hero-banner': "url('/images/banner.svg')",
+				'hero-figure': "url('/images/bannerguy.png')",
+				'footer-texture': "url('/img/footer-texture.png')"
 			}
 		}
 	},

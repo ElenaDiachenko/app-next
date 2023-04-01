@@ -1,11 +1,12 @@
 import Link from 'next/link'
 
+import Hero from '@/components/Hero'
 import Meta from '@/components/ui/Meta'
 
 export default function Home() {
 	return (
 		<Meta title="Main page" description="Description">
-			<h1 className="text-3xl font-bold underline ">Hello world!</h1>
+			<Hero />
 			<Link href="/about">About</Link>
 		</Meta>
 	)

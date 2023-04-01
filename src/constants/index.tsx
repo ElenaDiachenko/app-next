@@ -20,3 +20,13 @@ export const menuLink = [
 	{ name: 'About', slug: 'about', subCategories: aboutNav },
 	{ name: 'Solutions', slug: 'solutions', subCategories: solutionsNav }
 ]
+
+const heroSkills = [
+	'Data Entry',
+	'Graphic Design ',
+	'Logo Design',
+	'Ethical Hacking ',
+	'WordPress'
+]
+
+export const constants = { heroSkills, menuLink }

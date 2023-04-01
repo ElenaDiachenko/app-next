@@ -7,15 +7,15 @@
 		font-family: Arial, Helvetica, sans-serif;
 	}
 	body {
-		@apply text-base  text-['#707070']  md:text-lg;
+		@apply text-base  text-[#707070]  md:text-lg;
 	}
 }
 @layer components {
 	.btn-primary {
-		@apply cursor-pointer rounded-md bg-accent/90 px-4 py-2 font-medium text-white hover:bg-accent focus:bg-accent focus:outline-none;
+		@apply grid cursor-pointer place-content-center rounded-md bg-accent/90 px-4 py-2 font-medium text-white hover:bg-accent focus:bg-accent focus:outline-none;
 	}
 	.btn-secondary {
-		@apply cursor-pointer rounded-md bg-white px-4 py-2 font-medium text-accent hover:bg-hover-light focus:bg-hover-light focus:outline-none;
+		@apply grid cursor-pointer place-content-center rounded-md bg-white px-4 py-2 font-medium text-accent hover:bg-hover-light focus:bg-hover-light focus:outline-none;
 	}
 
 	.center-row {
