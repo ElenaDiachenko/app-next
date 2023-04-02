@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { AiOutlineMenu } from 'react-icons/ai'
+import { BiEdit, BiExit, BiMenu } from 'react-icons/bi'
 
 import { constants } from '@/utils/constants'
 
@@ -9,10 +9,10 @@ import Dropdown from './ui/Dropdown'
 export default function Navbar() {
 	return (
 		<header className="border-t-[5px] border-t-accent border-b-[1px] border-b-secondary/20 shadow-[0 1px 0 rgba(255,255,255,0.2)] ">
-			<div className="mx-auto w-full max-w-[1200px] px-4 ">
+			<div className="container-box">
 				<nav className="flex items-center font-bold justify-between lg:justify-start">
 					<div className="lg:hidden ">
-						<AiOutlineMenu size={30} />
+						<BiMenu size={30} />
 					</div>
 					<div className="">
 						<Link href="/" className="block py-4">
@@ -46,10 +46,20 @@ export default function Navbar() {
 							</Link>
 						</li>
 						<li className="hidden lg:block">
-							<Link href="/register">Sign Up</Link>
+							<Link href="/register">
+								<div className="center-row gap-.5">
+									<BiEdit size={25} />
+									<span>Sign Up</span>
+								</div>
+							</Link>
 						</li>
 						<li className="hidden lg:block">
-							<Link href="/login">Log In</Link>
+							<Link href="/login">
+								<div className="center-row gap-.5">
+									<BiExit size={25} />
+									<span>Log In</span>
+								</div>
+							</Link>
 						</li>
 					</ul>
 				</nav>

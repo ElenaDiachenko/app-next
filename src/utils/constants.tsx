@@ -1,3 +1,8 @@
+import { BsCashCoin } from 'react-icons/bs'
+import { FaUserTie } from 'react-icons/fa'
+import { GiCoins } from 'react-icons/gi'
+import { TbFileCertificate, TbFileDollar } from 'react-icons/tb'
+
 export const aboutNav = [
 	{ id: '1', name: 'About Guru', slug: 'about-guru' },
 	{ id: '2', name: 'How Guru Works', slug: 'how-guru-works' },
@@ -21,6 +26,13 @@ export const menuLink = [
 	{ name: 'Solutions', slug: 'solutions', subCategories: solutionsNav }
 ]
 
+const stats = [
+	{ title: '800,00', desc: 'Employers Worldwide', icon: FaUserTie },
+	{ title: '1 Million', desc: 'Paid Invoices', icon: TbFileDollar },
+	{ title: '$250 Million', desc: 'Paid to Freelancers', icon: BsCashCoin },
+	{ title: '99%', desc: 'Customer Satisfaction Rate', icon: TbFileCertificate }
+]
+
 const heroSkills = [
 	'Data Entry',
 	'Graphic Design ',
@@ -29,4 +41,4 @@ const heroSkills = [
 	'WordPress'
 ]
 
-export const constants = { heroSkills, menuLink }
+export const constants = { heroSkills, menuLink, stats }
