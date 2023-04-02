@@ -1,8 +1,9 @@
 import Link from 'next/link'
 
-import { constants } from '@/constants'
 import React from 'react'
 import { BsSearch } from 'react-icons/bs'
+
+import { constants } from '@/utils/constants'
 
 const Hero = () => {
 	return (

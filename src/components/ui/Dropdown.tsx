@@ -1,29 +1,15 @@
 import Link from 'next/link'
 
+import { ICategory } from '@/interfaces'
 import { Menu, Transition } from '@headlessui/react'
 import { FC, Fragment } from 'react'
 import { HiChevronDown } from 'react-icons/hi'
-
-type DropdownProps = {
-	category: {
-		id?: string
-		name: string
-		slug: string
-		subCategories: SubCategoryType[]
-	}
-}
-type SubCategoryType = {
-	id: string
-	name: string
-	slug: string
-	categoryId?: string
-}
 
 function classNames(...classes: string[]) {
 	return classes.filter(Boolean).join(' ')
 }
 
-const Dropdown: FC<DropdownProps> = ({ category }) => {
+const Dropdown: FC<ICategory> = ({ category }) => {
 	const { id, name, subCategories } = category
 
 	return (

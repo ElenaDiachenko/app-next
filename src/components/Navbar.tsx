@@ -1,7 +1,8 @@
 import Link from 'next/link'
 
-import { menuLink } from '@/constants'
 import { AiOutlineMenu } from 'react-icons/ai'
+
+import { constants } from '@/utils/constants'
 
 import Dropdown from './ui/Dropdown'
 
@@ -23,7 +24,7 @@ export default function Navbar() {
 						</Link>
 					</div>
 					<div className=" hidden lg:flex items-center gap-3 ml-5">
-						{menuLink.map((link, idx) =>
+						{constants.menuLink.map((link, idx) =>
 							link.subCategories.length > 0 ? (
 								<Dropdown key={idx} category={link} />
 							) : (

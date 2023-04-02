@@ -1,14 +1,14 @@
-export interface DropdownProps {
+export interface ICategory {
 	category: {
-		id: string
+		id?: string
 		name: string
 		slug: string
-		subCategories?: SubCategory[]
+		subCategories: ISubCategory[]
 	}
 }
-export interface SubCategory {
+export interface ISubCategory {
 	id: string
 	name: string
 	slug: string
-	categoryId: string
+	categoryId?: string
 }
