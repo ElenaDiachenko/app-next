@@ -49,7 +49,7 @@ const Carousel = () => {
 			<div className="mx-auto w-full max-w-[1200px] px-4 ">
 				<div className="relative flex items-center group">
 					{scrollX !== 0 && (
-						<div className=" h-[60px] grid place-content-center shadow-[8px_0_8px_-4px_rgba(0,0,0,0.3)] ">
+						<div className=" h-[60px] grid place-content-center shadow-[8px_0_8px_-4px_rgba(204,204,204,1)] ">
 							<MdChevronLeft
 								onClick={() => slide('left')}
 								className="opacity-100 hover:opacity-90 cursor-pointer "
@@ -71,7 +71,7 @@ const Carousel = () => {
 						))}
 					</div>
 					{!scrolEnd && (
-						<div className=" h-[60px] grid place-content-center shadow-[-8px_0_8px_-4px_rgba(0,0,0,0.3)] ">
+						<div className=" h-[60px] grid place-content-center shadow-[-8px_0_8px_-4px_rgba(204,204,204,1)] ">
 							<MdChevronRight
 								onClick={() => slide('right')}
 								className=" opacity-100 hover:opacity-90 cursor-pointer  "
