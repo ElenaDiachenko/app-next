@@ -7,7 +7,7 @@ type SectionTitleProps = {
 
 const SectionTitle: FC<SectionTitleProps> = ({ variant, text }) => {
 	return (
-		<div className="container-box  flex  flex-col items-center">
+		<div className="container-box  flex  flex-col items-center mb-14">
 			<h2
 				className={`${
 					variant === 'white' ? ' text-white ' : ' text-t-black '

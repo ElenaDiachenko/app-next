@@ -1,9 +1,8 @@
 import Link from 'next/link'
 
-import { Hero, Stats } from '@/components/home'
+import { Categories, Hero, Stats } from '@/components/home'
 import Carousel from '@/components/ui/Carousel'
 import Meta from '@/components/ui/Meta'
-import SectionTitle from '@/components/ui/SectionTitle'
 
 export default function Home() {
 	return (
@@ -11,7 +10,8 @@ export default function Home() {
 			<Carousel />
 			<Hero />
 			<Stats />
-			<SectionTitle text={'Hello world'} />
+			<Categories />
+
 			<Link href="/about">About</Link>
 		</Meta>
 	)
