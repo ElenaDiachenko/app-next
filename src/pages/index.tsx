@@ -1,8 +1,7 @@
 import Link from 'next/link'
 
 import { Categories, Hero, HowGuruWorks, Stats } from '@/components/home'
-import Carousel from '@/components/ui/Carousel'
-import Meta from '@/components/ui/Meta'
+import { Carousel, Meta } from '@/components/ui'
 
 export default function Home() {
 	return (

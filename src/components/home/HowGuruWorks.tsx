@@ -1,10 +1,9 @@
 import React from 'react'
 
-import SectionTitle from '@/components/ui/SectionTitle'
+import { Button, SectionTitle } from '@/components/ui'
 
 import { constants } from '@/utils/constants'
 
-import Button from '../ui/Button'
 import HowGuruWorksItem from './HowGuruWorksItem'
 
 const HowGuruWorks = () => {

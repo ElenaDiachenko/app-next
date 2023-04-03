@@ -1,9 +1,8 @@
 import { categories } from '@/data'
 import React from 'react'
 
-import SectionTitle from '@/components/ui/SectionTitle'
+import { Button, SectionTitle } from '@/components/ui'
 
-import Button from '../ui/Button'
 import CategoryItem from './CategoryItem'
 
 const Categories = () => {
