@@ -1,3 +1,5 @@
+import { IconType } from 'react-icons'
+
 export interface ICategory {
 	category: {
 		id?: string
@@ -13,4 +15,10 @@ export interface ISubCategory {
 	name: string
 	slug: string
 	categoryId?: string
+}
+
+export interface IStaticSectionData {
+	title: string
+	desc: string
+	icon: IconType
 }

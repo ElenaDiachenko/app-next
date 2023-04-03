@@ -1,8 +1,8 @@
+import { IStaticSectionData } from '@/interfaces'
 import { FC } from 'react'
-import { IconType } from 'react-icons'
 
 type StatItemType = {
-	stat: { title: string; desc: string; icon: IconType }
+	stat: IStaticSectionData
 }
 
 const StatItem: FC<StatItemType> = ({ stat: { title, desc, icon: Icon } }) => {

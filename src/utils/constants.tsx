@@ -33,6 +33,29 @@ const stats = [
 	{ title: '99%', desc: 'Customer Satisfaction Rate', icon: TbFileCertificate }
 ]
 
+const howWork = [
+	{
+		title: 'Post a Job',
+		desc: 'Create your free job posting and start receiving Quotes within hours.',
+		icon: FaUserTie
+	},
+	{
+		title: 'Hire Freelancers',
+		desc: 'Compare the Quotes you receive and hire the best freelance professionals for the job.',
+		icon: FaUserTie
+	},
+	{
+		title: 'Get Work Done',
+		desc: ' Decide on how and when payments will be made and use WorkRooms to collaborate, communicate and track work.',
+		icon: FaUserTie
+	},
+	{
+		title: 'Make Secure Payments',
+		desc: 'Choose from multiple payment methods with SafePay payment protection.',
+		icon: FaUserTie
+	}
+]
+
 const heroSkills = [
 	'Data Entry',
 	'Graphic Design ',
@@ -41,4 +64,4 @@ const heroSkills = [
 	'WordPress'
 ]
 
-export const constants = { heroSkills, menuLink, stats }
+export const constants = { heroSkills, menuLink, stats, howWork }

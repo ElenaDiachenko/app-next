@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { Categories, Hero, Stats } from '@/components/home'
+import { Categories, Hero, HowGuruWorks, Stats } from '@/components/home'
 import Carousel from '@/components/ui/Carousel'
 import Meta from '@/components/ui/Meta'
 
@@ -11,7 +11,7 @@ export default function Home() {
 			<Hero />
 			<Stats />
 			<Categories />
-
+			<HowGuruWorks />
 			<Link href="/about">About</Link>
 		</Meta>
 	)
