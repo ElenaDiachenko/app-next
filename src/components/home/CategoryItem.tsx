@@ -12,7 +12,10 @@ const CategoryItem: FC<ICategory> = ({ category }) => {
 				className="center-col items-center  hover:underline text-accent p-4  ">
 				<Icon size={40} className="text-accent/90 mb-4 " />
 				<p className="text-t-black font-medium  mb-1 text-center ">{name}</p>
-				<p className="text-primary/80  font-normal text-sm">{`${users} Freelancers`}</p>
+				<p className="text-primary/80  font-normal text-sm">
+					{users &&
+						`${new Intl.NumberFormat('en-US').format(users)} Freelancers`}
+				</p>
 			</Link>
 		</li>
 	)
