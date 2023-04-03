@@ -3,6 +3,8 @@ export interface ICategory {
 		id?: string
 		name: string
 		slug: string
+		users?: number
+		icon?: string | any
 		subCategories: ISubCategory[]
 	}
 }

@@ -8,7 +8,7 @@ import { constants } from '@/utils/constants'
 const Hero = () => {
 	return (
 		<section className=" text-white bg-hero-banner bg-no-repeat  bg-center bg-cover py-24 relative">
-			<div className="mx-auto w-full max-w-[1200px] px-4 ">
+			<div className="container-box  ">
 				<div className="w-[63%] ">
 					<div className="mb-12">
 						<h1 className="font-medium text-5xl mb-2">
@@ -23,7 +23,8 @@ const Hero = () => {
 						</p>
 						<p
 							aria-hidden="true"
-							className="w-[100px] h-0 border-[2px] border-accent"></p>
+							className="w-[100px] h-0 border-[2px] border-accent"
+						/>
 					</div>
 					<div className="flex justify-between  items-stretch max-w-[700px] flex-wrap gap-4">
 						<form className=" flex-1 relative">
