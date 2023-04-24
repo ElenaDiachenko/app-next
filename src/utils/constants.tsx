@@ -55,6 +55,24 @@ const howWork = [
 		icon: FaUserTie
 	}
 ]
+const workWayList = [
+	{
+		title: 'Fixed Price',
+		desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam saepe quam eligendi maiores! Deserunt ipsam debitis iste facere.'
+	},
+	{
+		title: 'Hourly',
+		desc: 'Tempora rerum quae dolorem veniam maiores praesentium veritatis error, dolor quas nisi'
+	},
+	{
+		title: 'Task-Based',
+		desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam saepe quam eligendi maiores! Deserunt ipsam debitis iste facere.'
+	},
+	{
+		title: 'Recurring Payment',
+		desc: 'Tempora rerum quae dolorem veniam maiores praesentium veritatis error, dolor quas nisi'
+	}
+]
 
 const heroSkills = [
 	'Data Entry',
@@ -64,4 +82,4 @@ const heroSkills = [
 	'WordPress'
 ]
 
-export const constants = { heroSkills, menuLink, stats, howWork }
+export const constants = { heroSkills, menuLink, stats, howWork, workWayList }
