@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from 'react'
 
 import { Button, SectionTitle } from '@/components/ui'
 
@@ -7,6 +7,8 @@ import { constants } from '@/utils/constants'
 import WorkYourWayItem from './WorkYourWayItem'
 
 const WorkYourWay = () => {
+	const [active, setActive] = useState(constants.workWayList[0].title)
+
 	return (
 		<section className="bg-accent/5 py-[54px] md:py-16">
 			<div className="container-box">
@@ -25,7 +27,12 @@ const WorkYourWay = () => {
 						</p>
 						<ul className="flex flex-col gap-4">
 							{constants.workWayList.map((item, idx) => (
-								<WorkYourWayItem key={idx} item={item} />
+								<WorkYourWayItem
+									key={idx}
+									item={item}
+									active={active}
+									setActive={setActive}
+								/>
 							))}
 						</ul>
 					</div>
