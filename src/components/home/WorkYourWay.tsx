@@ -22,10 +22,10 @@ const WorkYourWay = () => {
 						/>
 					</div>
 					<div className="w-full md:w-1/2 self-start ">
-						<p className="md:mb-8 text-t-black md:text-xl font-medium">
+						<p className=" text-t-black md:text-xl font-medium">
 							Choose from four Payment terms and create Agreements.
 						</p>
-						<ul className="flex flex-col gap-4">
+						<ul className="flex flex-col mb-8">
 							{constants.workWayList.map((item, idx) => (
 								<WorkYourWayItem
 									key={idx}
@@ -35,6 +35,10 @@ const WorkYourWay = () => {
 								/>
 							))}
 						</ul>
+						<Button
+							title={'Learn about agreements'}
+							style={' md:mr-auto md:ml-0'}
+						/>
 					</div>
 				</div>
 			</div>

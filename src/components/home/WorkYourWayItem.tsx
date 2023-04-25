@@ -15,7 +15,7 @@ const WorkYourWayItem: FC<WorkYourWayItemType> = ({
 	const isActive = active === title
 
 	return (
-		<li className=" flex flex-col gap-2   ">
+		<li className=" flex flex-col gap-2 mt-8  ">
 			<div
 				className="flex gap-2 items-center cursor-pointer"
 				onClick={() => setActive(title)}>
@@ -26,9 +26,7 @@ const WorkYourWayItem: FC<WorkYourWayItemType> = ({
 				)}
 				<p className="text-t-black md:text-xl font-medium">{title}</p>
 			</div>
-			<p className={`${isActive ? 'block mt-2 ml-[35px]' : 'hidden'}`}>
-				{desc}
-			</p>
+			<p className={`${isActive ? 'block  ml-[35px]' : 'hidden'}`}>{desc}</p>
 		</li>
 	)
 }
