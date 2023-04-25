@@ -9,7 +9,7 @@ const colors = {
 	accent: '#4c83c3',
 	['t-black']: '#111111',
 	['bg-light']: '#f5f5f5',
-	['bg-accent-blue']: '#2b3247',
+	['accent-blue']: '#2b3247',
 	primary: '#333333',
 	secondary: '#666666',
 	['hover-light']: '#f7f7f7'
@@ -65,6 +65,7 @@ module.exports = {
 			backgroundImage: {
 				'hero-banner': "url('/images/banner.svg')",
 				'hero-figure': "url('/images/bannerguy.png')",
+				'enterprise-banner': "url('/images/enterprise-banner.png')",
 				'footer-texture': "url('/img/footer-texture.png')"
 			}
 		}
