@@ -5,15 +5,16 @@ import {
 	Enterprise,
 	Hero,
 	HowGuruWorks,
+	SlideMenu,
 	Stats,
 	WorkYourWay
 } from '@/components/home'
-import { Carousel, Meta } from '@/components/ui'
+import { Meta } from '@/components/ui'
 
 export default function Home() {
 	return (
 		<Meta title="Main page" description="Description">
-			<Carousel />
+			<SlideMenu />
 			<Hero />
 			<Stats />
 			<Categories />

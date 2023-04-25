@@ -1,11 +1,10 @@
-import Link from 'next/link'
-
-import { categories } from '@/data'
-import { MouseEvent, useCallback, useRef, useState } from 'react'
+import { FC, ReactNode, useCallback, useRef, useState } from 'react'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
 
-const Carousel = () => {
-	// const sliderRef = useRef<HTMLDivElement>(null)
+type CarouselProps = {
+	children: ReactNode
+}
+const Carousel: FC<CarouselProps> = ({ children }) => {
 	let scrl = useRef<HTMLDivElement | null>(null)
 	const [scrollX, setscrollX] = useState(0)
 	const [scrolEnd, setscrolEnd] = useState(false)
@@ -61,14 +60,7 @@ const Carousel = () => {
 						ref={scrl}
 						onScroll={scrollCheck}
 						className=" overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide relative mx-2">
-						{categories.map(category => (
-							<Link
-								key={category.id}
-								href={`/${category.slug}`}
-								className="inline-block hover:underline hover:text-accent p-4 ">
-								{category.name}
-							</Link>
-						))}
+						{children}
 					</div>
 					{!scrolEnd && (
 						<div className=" h-[60px] grid place-content-center shadow-[-8px_0_8px_-4px_rgba(204,204,204,1)] ">
