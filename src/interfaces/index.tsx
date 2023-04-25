@@ -19,6 +19,6 @@ export interface ISubCategory {
 
 export interface IStaticSectionData {
 	title: string
-	desc: string
+	desc?: string
 	icon: IconType
 }

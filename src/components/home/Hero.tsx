@@ -7,7 +7,7 @@ import { constants } from '@/utils/constants'
 
 const Hero = () => {
 	return (
-		<section className=" text-white bg-hero-banner bg-no-repeat  bg-center bg-cover py-24 relative">
+		<section className=" text-white bg-accent-blue bg-hero-banner bg-no-repeat  bg-center bg-cover py-24 relative">
 			<div className="container-box  ">
 				<div className="w-[63%] ">
 					<div className="mb-12">

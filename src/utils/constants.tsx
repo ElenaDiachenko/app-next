@@ -1,7 +1,10 @@
+import { BiCheckShield } from 'react-icons/bi'
 import { BsCashCoin } from 'react-icons/bs'
 import { FaUserTie } from 'react-icons/fa'
 import { GiCoins } from 'react-icons/gi'
+import { GiReceiveMoney } from 'react-icons/gi'
 import { TbFileCertificate, TbFileDollar } from 'react-icons/tb'
+import { VscTools } from 'react-icons/vsc'
 
 export const aboutNav = [
 	{ id: '1', name: 'About Guru', slug: 'about-guru' },
@@ -24,6 +27,13 @@ export const menuLink = [
 	{ name: 'Find Jobs', slug: 'find-jobs', subCategories: [] },
 	{ name: 'About', slug: 'about', subCategories: aboutNav },
 	{ name: 'Solutions', slug: 'solutions', subCategories: solutionsNav }
+]
+const heroSkills = [
+	'Data Entry',
+	'Graphic Design ',
+	'Logo Design',
+	'Ethical Hacking ',
+	'WordPress'
 ]
 
 const stats = [
@@ -74,12 +84,17 @@ const workWayList = [
 	}
 ]
 
-const heroSkills = [
-	'Data Entry',
-	'Graphic Design ',
-	'Logo Design',
-	'Ethical Hacking ',
-	'WordPress'
+const enterpriseList = [
+	{ title: 'Custom Built Solutions', icon: VscTools },
+	{ title: 'Compliance & Security Benefits', icon: BiCheckShield },
+	{ title: 'Industry Lowest Fees', icon: GiReceiveMoney }
 ]
 
-export const constants = { heroSkills, menuLink, stats, howWork, workWayList }
+export const constants = {
+	heroSkills,
+	menuLink,
+	stats,
+	howWork,
+	workWayList,
+	enterpriseList
+}
