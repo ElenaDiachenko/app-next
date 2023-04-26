@@ -6,7 +6,7 @@ import { Carousel } from '../ui'
 
 const SlideMenu = () => {
 	return (
-		<Carousel>
+		<Carousel step={2} shadow={true}>
 			{categories.map(category => (
 				<Link
 					key={category.id}

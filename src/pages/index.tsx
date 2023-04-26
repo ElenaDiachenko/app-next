@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 import {
 	Categories,
+	ClientReviews,
 	Enterprise,
 	Hero,
 	HowGuruWorks,
@@ -21,6 +22,7 @@ export default function Home() {
 			<HowGuruWorks />
 			<WorkYourWay />
 			<Enterprise />
+			<ClientReviews />
 			<Link href="/about">About</Link>
 		</Meta>
 	)

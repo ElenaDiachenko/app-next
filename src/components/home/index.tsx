@@ -1,4 +1,5 @@
 import Categories from './Categories'
+import ClientReviews from './ClientReviews'
 import Enterprise from './Enterprise'
 import Hero from './Hero'
 import HowGuruWorks from './HowGuruWorks'
@@ -13,5 +14,6 @@ export {
 	Categories,
 	HowGuruWorks,
 	WorkYourWay,
-	Enterprise
+	Enterprise,
+	ClientReviews
 }

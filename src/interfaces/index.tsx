@@ -22,3 +22,11 @@ export interface IStaticSectionData {
 	desc?: string
 	icon: IconType
 }
+
+export interface IReview {
+	id: string
+	desc: string
+	avatar: string
+	userName: string
+	userDesc: string
+}

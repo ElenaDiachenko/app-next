@@ -74,3 +74,27 @@ export const categories = [
 		subCategories: []
 	}
 ]
+
+export const reviews = [
+	{
+		id: '1',
+		desc: '1.In our company, we do ongoing research with our target audience. This includes 30-45 minute phone interviews. It was difficult to conduct the interview, really listen, and ask good follow up questions while trying to capture it all in thorough hand-written notes. One of our writers suggested using Guru to find someone to transcribe these interviews...The person I hired is the one I’ve stuck with for nearly two years now – she is fast, accurate, and affordable. I’d never have found her on my own, given that I live in Utah and she lives in South Africa. I could never have arranged such an effective solution to my on-going need for transcripts without Guru. It’s been a life-saver.',
+		avatar: 'DF',
+		userName: 'Ed Bagley',
+		userDesc: 'Director of Product Marketing, O.C. Tanner Company'
+	},
+	{
+		id: '2',
+		desc: '2. In our company, we do ongoing research with our target audience. This includes 30-45 minute phone interviews. It was difficult to conduct the interview, really listen, and ask good follow up questions while trying to capture it all in thorough hand-written notes. One of our writers suggested using Guru to find someone to transcribe these interviews...The person I hired is the one I’ve stuck with for nearly two years now – she is fast, accurate, and affordable. I’d never have found her on my own, given that I live in Utah and she lives in South Africa. I could never have arranged such an effective solution to my on-going need for transcripts without Guru. It’s been a life-saver.',
+		avatar: 'DF',
+		userName: 'Ed Bagley',
+		userDesc: 'Director of Product Marketing, O.C. Tanner Company'
+	},
+	{
+		id: '3',
+		desc: '3. In our company, we do ongoing research with our target audience. This includes 30-45 minute phone interviews. It was difficult to conduct the interview, really listen, and ask good follow up questions while trying to capture it all in thorough hand-written notes. One of our writers suggested using Guru to find someone to transcribe these interviews...The person I hired is the one I’ve stuck with for nearly two years now – she is fast, accurate, and affordable. I’d never have found her on my own, given that I live in Utah and she lives in South Africa. I could never have arranged such an effective solution to my on-going need for transcripts without Guru. It’s been a life-saver.',
+		avatar: 'DF',
+		userName: 'Ed Bagley',
+		userDesc: 'Director of Product Marketing, O.C. Tanner Company'
+	}
+]
